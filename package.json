@@ -1,0 +1,15 @@
+{
+  "name": "discord-scheduled-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that runs on a schedule via GitHub Actions",
+  "main": "send-message.js",
+  "scripts": {
+    "start": "node send-message.js"
+  },
+  "dependencies": {
+    "discord-user-bots": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
